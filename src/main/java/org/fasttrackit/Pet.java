@@ -6,7 +6,7 @@ public class Pet {
      int age;
      String favoriteFood;
      String favoriteActivity;
-     int health  = 8;
-     int hunger = 6;
-     int mood = 10;
+     int health ;
+     int hunger;
+     int mood;
 }
