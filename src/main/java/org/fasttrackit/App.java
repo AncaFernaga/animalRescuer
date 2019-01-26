@@ -15,8 +15,8 @@ public class App {
         cat.age = 2;
         cat.favoriteActivity = "sleeping";
         cat.favoriteFood = "kibbles";
-        cat.mood = 7;
-        cat.health = 9;
+        cat.petMood = 7;
+        cat.pethHealth = 9;
 
         Food food = new Food();
         food.available = false;

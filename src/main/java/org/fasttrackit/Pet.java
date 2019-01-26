@@ -1,12 +1,14 @@
 package org.fasttrackit;
 
-public class Pet {
+public class Pet extends Animals {
 
-     String name;
+     Breed breed;
+
+     String petName;
      int age;
      String favoriteFood;
      String favoriteActivity;
-     int health ;
-     int hunger;
-     int mood;
+     int pethHealth ;
+     int petHunger;
+     int petMood;
 }
