@@ -4,4 +4,5 @@ public class Owner {
 
      String ownerName;
      double money;
+     int freeHoursPerWeek;
 }
