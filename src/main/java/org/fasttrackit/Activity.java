@@ -12,7 +12,32 @@ public class Activity {
           this(new Owner());
      }
 
-     String activity;
-     int duration;
-     String dayOfWeek;
+     private String activity;
+     private int duration;
+     private String dayOfWeek;
+
+     public String getActivity() {
+          return activity;
+     }
+
+     public void setActivity(String activity) {
+          this.activity = activity;
+     }
+
+     public int getDuration() {
+          return duration;
+     }
+
+     public void setDuration(int duration) {
+          this.duration = duration;
+     }
+
+     public String getDayOfWeek() {
+          return dayOfWeek;
+     }
+
+     public void setDayOfWeek(String dayOfWeek) {
+          this.dayOfWeek = dayOfWeek;
+     }
+
 }

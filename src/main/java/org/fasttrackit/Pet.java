@@ -13,11 +13,73 @@ public class Pet extends Animals {
 
      Breed breed;
 
-     String petName;
-     int age;
-     String favoriteFood;
-     String favoriteActivity;
-     int petHealth ;
-     int petHunger;
-     int petMood;
+     private String petName;
+     private int age;
+     private String favoriteFood;
+     private String favoriteActivity;
+     private int petHealth ;
+     private int petHunger;
+     private int petMood;
+
+     public Pet() {
+
+     }
+
+     public String getPetName() {
+          return petName;
+     }
+
+     public void setPetName(String petName) {
+          this.petName = petName;
+     }
+
+     public int getAge() {
+          return age;
+     }
+
+     public void setAge(int age) {
+          this.age = age;
+     }
+
+     public String getFavoriteFood() {
+          return favoriteFood;
+     }
+
+     public void setFavoriteFood(String favoriteFood) {
+          this.favoriteFood = favoriteFood;
+     }
+
+     public String getFavoriteActivity() {
+          return favoriteActivity;
+     }
+
+     public void setFavoriteActivity(String favoriteActivity) {
+          this.favoriteActivity = favoriteActivity;
+     }
+
+     public int getPetHealth() {
+          return petHealth;
+     }
+
+     public void setPetHealth(int petHealth) {
+          this.petHealth = petHealth;
+     }
+
+     public int getPetHunger() {
+          return petHunger;
+     }
+
+     public void setPetHunger(int petHunger) {
+          this.petHunger = petHunger;
+     }
+
+     public int getPetMood() {
+          return petMood;
+     }
+
+     public void setPetMood(int petMood) {
+          this.petMood = petMood;
+     }
+
+
 }
