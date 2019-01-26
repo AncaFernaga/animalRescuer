@@ -1,10 +1,29 @@
 package org.fasttrackit;
 
 public class Activity {
-     Owner ownerName;
-     boolean available;
+    private Owner ownerName;
+    private boolean available;
+    private String activityName;
+    private int duration;
+    private String dayOfWeek;
 
-     public Activity(Owner ownerName) {
+    public Owner getOwnerName() {
+        return ownerName;
+    }
+
+    public void setOwnerName(Owner ownerName) {
+        this.ownerName = ownerName;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+
+    public Activity(Owner ownerName) {
        this.ownerName = ownerName;
      }
 
@@ -12,16 +31,12 @@ public class Activity {
           this(new Owner());
      }
 
-     private String activity;
-     private int duration;
-     private String dayOfWeek;
-
      public String getActivity() {
-          return activity;
+          return activityName;
      }
 
      public void setActivity(String activity) {
-          this.activity = activity;
+          this.activityName = activity;
      }
 
      public int getDuration() {
@@ -40,4 +55,7 @@ public class Activity {
           this.dayOfWeek = dayOfWeek;
      }
 
+    public void activityName(String fetch) {
+        this.activityName = activityName;
+    }
 }
