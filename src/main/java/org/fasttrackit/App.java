@@ -6,6 +6,10 @@ public class App {
 
         Game game = new Game();
 
+        Pet myDog = new Pet("Dalmatian", "Black and white", "puppy");
+        myDog.getPetMood(myDog, true);
+        System.out.println("Your puppy seems to be happy; he is wagging his tail.");
+
 
         Owner girlNextDoor = new Owner();
         ((Owner) girlNextDoor).setMoney(350);
